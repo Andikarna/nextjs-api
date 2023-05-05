@@ -1,0 +1,38 @@
+.container {
+  background-color: darkslategrey;
+  height: 100%;
+  display: flex;  
+}
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+}
+.image{
+  border-radius: 50%;
+  border: 80px solid white;
+  box-shadow: 0 5px 15px 0 rgba(0 0 0 / 35%);
+}
+
+.col{
+  text-align: left;
+  position: relative;
+  justify-items: left;
+  margin: 60px 30px;
+}
+
+.title{
+  color: rgba(255, 255, 255, 0.774);
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.label{
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+.label strong{
+  color: white;
+}

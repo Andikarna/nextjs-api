@@ -1,0 +1,45 @@
+.container {
+  background-color: darkslategrey;
+  height: 100%;
+  display: flex;
+}
+.row{
+  width: 100%;
+  justify-content: center;
+  padding: 0 300px;
+}
+
+.title{
+ color: white;
+ padding: 30px 0;
+ padding-top: 150px;
+}
+
+.cardUser{
+  background-color: white;
+  width: 500px;
+  border: 7px solid darkgray;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 5px 15px 0 rgba(0 0 0 / 35%);
+}
+
+.cardUser h3{
+  color: darkslategray;
+  font-weight: bold;
+  width: 100%;
+  justify-content:start;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.button{
+  background-color: bisque;
+  text-decoration: none;
+  color: darkslategray;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px 0 rgba(0 0 0 / 35%);
+}

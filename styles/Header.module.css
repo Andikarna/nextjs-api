@@ -1,0 +1,23 @@
+.container {
+  background-color: darkslategray;
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0 20px;
+  
+}
+
+.link{
+  text-decoration: none;
+  color: white;  
+}
